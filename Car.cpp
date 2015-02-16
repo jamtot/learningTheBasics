@@ -10,7 +10,7 @@ Car::~Car()
 
 void Car::printName()
 {
-	printf("Cars name is \"%s\"!\n", m_name);
+	std::cout << "Cars name is " << m_name << std::endl;
 }
 
 void Car::printAge()

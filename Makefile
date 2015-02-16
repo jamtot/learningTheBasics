@@ -10,4 +10,4 @@ P1:
 	g++ -Wall main.o Car.o -o P1
 
 clean:
-	rm -f *o
+	rm -f *o P1
