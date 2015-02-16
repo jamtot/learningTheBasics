@@ -1,10 +1,13 @@
+#include <iostream>
+#include <string>
+
+// Vehicle class, a base class which contains a name.
 class Vehicle{
 protected:
-	char *m_name;
+	std::string m_name;
 public:
-	void setName(char *car_name)
+	void setName()
 	{
-		m_name = car_name;
+		m_name = "Henriksonly";
 	}
-
 };
