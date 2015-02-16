@@ -1,7 +1,9 @@
 #include "Car.h"
 
 Car::Car(int car_age) : m_age(car_age)
-{}
+{ 
+	setName(); 
+}
 
 Car::~Car()
 {}

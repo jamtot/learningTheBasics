@@ -1,8 +1,14 @@
+//#include <string>
+
 class Vehicle{
 protected:
-	char *m_name;
+	char *m_name[10];//= "Henry";
 public:
-	Vehicle(char *name):m_name(name) {}
-	~Vehicle(){}
+	void setName()
+	{
+		//*m_name = "Henry";
+		char *name[10] = "Henry";
+		m_name = name;
+	}
 
 };

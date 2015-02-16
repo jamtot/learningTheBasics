@@ -1,10 +1,12 @@
 class Vehicle{
 protected:
-	char *m_name;
+	char *m_name[10];//= "Henry";
 public:
-	void setName(char *car_name)
+	void setName()
 	{
-		m_name = car_name;
+		//*m_name = "Henry";
+		char *name = "Henry";
+		m_name = name;
 	}
 
 };

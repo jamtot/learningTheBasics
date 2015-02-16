@@ -1,4 +1,6 @@
 #include "Vehicle.h"
+#include <stdio.h>
+#include <string>
 
 class Car : public Vehicle
 {
