@@ -2,7 +2,7 @@
 
 Car::Car(int car_age) : m_age(car_age)
 { 
-	setName(); 
+	//setName(); 
 }
 
 Car::~Car()
@@ -10,12 +10,12 @@ Car::~Car()
 
 void Car::printName()
 {
-	std::cout << "Cars name is " << m_name << std::endl;
+	cout << "Cars name is " << m_name << endl;
 }
 
 void Car::printAge()
 {
-	printf("Cars age is %d!\n", m_age);
+	cout << "Cars age is " << m_age << endl;
 }
 
 void Car::printDetails()

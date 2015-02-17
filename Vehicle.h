@@ -1,13 +1,15 @@
 #include <iostream>
 #include <string>
 
+using namespace std;
+
 // Vehicle class, a base class which contains a name.
 class Vehicle{
 protected:
-	std::string m_name;
+	string m_name;
 public:
-	void setName()
+	void setName(string name)
 	{
-		m_name = "Henriksonly";
+		m_name = name;
 	}
 };
